@@ -80,6 +80,12 @@ body {
   transition: background-color 250ms linear;
 }
 
+.chart__label:hover,
+.chart__label:focus,
+.chart__label:active {
+	color: white;
+}
+
 .chart__bar-wrap {
   bottom: 0;
   position: absolute;
